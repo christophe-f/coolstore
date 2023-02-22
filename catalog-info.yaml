@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: coolstore
+  description: |
+    coolstore-demo coolstore
+  annotations:
+    github.com/project-slug: christophe-f/coolstore
+spec:
+  type: website
+  owner: janus-authors
+  lifecycle: experimental
